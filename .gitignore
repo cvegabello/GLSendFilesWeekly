@@ -1,0 +1,13 @@
+/SendFiles/*.vbproj
+/SendFiles/*.vbproj.user
+/SendFiles/My Project/
+/SendFiles/bin/
+/SendFiles/Resources/
+/SendFiles/obj/
+/SendFiles/*.ico
+/SendFiles/*.png
+/SendFiles/*.gif
+/SendFiles/*.jpg
+/SendFiles/*.resx
+*.sln
+*.suo
