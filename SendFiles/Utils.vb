@@ -573,7 +573,7 @@ Module Utils
                     End If
                 Else
                     If attachmentListFilesStr <> "" Then
-                        errCodeInt = sent_EmailManyAttach("156.24.14.132", Trim(Form1.txtEmailGoodGL.Text), attachmentListFilesStr, "Weekly GL files transmitted -" & Now & "-", "Please see the files attached." & vbCr & vbCr & "The files were moved too, to " & Chr(34) & "\\NYAdmin\NY Accounting\GL" & Chr(34) & ", please verify.")
+                        errCodeInt = sent_EmailManyAttach("156.24.14.132", Trim(Form1.txtEmailGoodGL.Text), attachmentListFilesStr, "Weekly GL files transmitted -" & Now & "-", "Please see the files attached." & vbCr & vbCr & "The files were moved too, to " & Chr(34) & "\\NYAdmin1\NY Accounting\GL" & Chr(34) & ", please verify.")
                         If errCodeInt <> 0 Then
                             MessageBox.Show("Weekly GL Files were transmitted but the email cannot be sent!", "Error eMail Sent", MessageBoxButtons.OK, MessageBoxIcon.Error)
                             Return 1
